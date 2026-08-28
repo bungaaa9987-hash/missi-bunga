@@ -239,29 +239,16 @@ header {
 .profile-circle {
     width: 190px;
     height: 190px;
-
     margin: auto;
-
     border-radius: 50%;
+    overflow: hidden;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background:
-        linear-gradient(
-            135deg,
-            #f9a8d4,
-            #db2777
-        );
-
-    color: white;
-
-    font-size: 90px;
-    font-weight: 800;
-
-    box-shadow:
-        0 20px 40px rgba(225,29,141,0.25);
+.profile-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .profile-card h3 {
